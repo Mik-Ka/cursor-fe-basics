@@ -1,0 +1,29 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F5F7FA;
+    color: #000;
+}
+
+/* gitignore explanation container */
+.gitignore-explanation-container {
+    margin: 0 0 40px 0;      
+}
+
+.gitignore-name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 17px;
+    color: #000;
+    margin: 0 0 20px 0;
+}
+
+.gitignore-explanation {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    margin: 0 0 25px 0;
+    width: 400px;
+}
