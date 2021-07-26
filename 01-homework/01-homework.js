@@ -1,1 +1,1 @@
-console.log("First homework");
+console.log("First homework done");
