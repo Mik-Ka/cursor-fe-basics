@@ -15,12 +15,6 @@ header{
  }
 
 .header-container {
-    /* background: #ED4C5C;
-    position: absolute;
-    width: 1440px;
-    height: 500px;
-    left: 0px;
-    top: 0px; */
     width: 100%;
     max-width: 1100px;
     margin: 0 auto;
@@ -85,20 +79,19 @@ main {
 
 .contact {
     max-width: 50%;
-    margin: auto;
     width: 445px;
     height: 160px;
     left: 176px;
     top: 617px;
     vertical-align: top;
-    margin-top: auto;
+    padding: 90px 115px 225px 175px;
 }
 
 .contact-title {
     font-weight: 600;
     font-size: 36px;
     line-height: 43px;
-    margin-bottom: 90px;
+    /* margin-bottom: 90px; */
 }
 
 .contact-text{
@@ -109,7 +102,7 @@ main {
     font-size: 14px;
     line-height: 140%;
     text-align: justify;
-    margin-top: 96px;
+    padding-top: 80px;
 }
 
 .forms{
@@ -119,6 +112,7 @@ main {
     height: 305px;
     left: 735px;
     top: 617px;
+    padding: 120px 165px 80px 115px;
 }
 form {
     width: 100%;   
@@ -167,20 +161,21 @@ input {
 
 footer {
     width: 100%;
-    min-height: 435px;
+    height: 435px;
     color: black; 
     background: #FAFAFA;
-    /* padding-top: 85px; */
+    padding-top: 45px;
 }
 
 .footer-content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 85px;
-    padding-left: 160px;
-    padding-top: 85px;
-    padding-right: 190px;
+    padding: auto;
+    width: 1440px;
+    height: 435px;
+    left: 0px;
+    top: 1045px;
 }
 
 h3 {
@@ -189,14 +184,15 @@ h3 {
     line-height: 22px;
     margin-bottom: 33px;
     text-align: start;
+    margin: 0px;
+    padding: 0px;
  }
 
 .address-section {
-    margin: 85px 30px 86px 100px;
+    padding: 85px 145px 86px 100px;
     font-size: 100%;
     font: inherit;
     vertical-align: baseline;
-    position: relative:top;
     width: 259px;
     height: 264px;
     left: 161px;
@@ -220,12 +216,11 @@ h3 {
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
-    padding-top: 141px;
+    padding-top: 85px;
 }
 
 .services-section {
-    margin: 85px 30px 186px 30px;
-    padding: 0;
+    padding: 85px 145px 190px 145px;
     border: 0;
     font-size: 100%;
     font: inherit;
@@ -254,7 +249,7 @@ h3 {
 }
 
 .contact-info-section {
-    margin: 85px 172px 222px 30px;
+    margin: 85px 170px 220px 145px;
 }
 
 .contact-info{
@@ -270,7 +265,7 @@ h3 {
 }
 
 .support-section {
-    margin: 85px 322px 264px 166px;
+    padding: 85px 330px 265px 50px;
 }
 
 footer>img{
@@ -278,5 +273,5 @@ footer>img{
     cursor: pointer;
 }
 footer>img:last-child{
-    margin-right: 0px;
+    margin-right: auto;
 }
