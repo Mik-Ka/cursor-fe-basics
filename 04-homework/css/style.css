@@ -275,3 +275,7 @@ footer>img{
 footer>img:last-child{
     margin-right: auto;
 }
+
+.payment-img {
+    padding-top: 35px;
+}
