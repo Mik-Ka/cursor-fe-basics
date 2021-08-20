@@ -164,15 +164,87 @@ nav>ul>li:hover {
 
 .purple-btn {
     cursor: pointer;
+    font: 'Nunito sans';
     width: 170px;
     height: 60px;
     background: #9C69E2;
     border-radius: 50px;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 160%;
     color: #FFFFFF;
     border-style: none;
     margin-top: 220px;
 }
 
+.purple-btn:hover {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #9C69E2;
+    color: #9C69E2;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-02 {
+    width: 1115px;
+    height: 560px;
+    left: 240px;
+    top: 905px;
+    margin: 100px 245px 150px 240px;
+
+    width: 1117px;
+    height: 560px;
+    left: 240px;
+    top: 903.18px;
+    
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+}
+
+.section-02-header {
+    position: absolute;
+    width: 475px;
+    height: 100px;
+    left: 790px;
+    top: 1028.18px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    
+    display: flex;
+    align-items: center;
+    
+    color: #212353;
+}
+
+.section-02-text {
+    position: absolute;
+    width: 474px;
+    height: 170px;
+    left: 790px;
+    top: 1168.18px;
+    
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    
+    color: #4B5D68;    
+}
+
+.section-02::after {
+    content: url(../img/image2.svg);
+    position: absolute;
+    width: 477px;
+    height: 504px;
+    left: 251px;
+    top: 935px;
+}
