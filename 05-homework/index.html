@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox homework #5</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,7 +14,7 @@
 </head>
 <body>
     <header class="header-title">
-        <section class="wrapper">
+        <div class="wrapper">
             <img src="./img/Logo.svg" alt="Logo" class="logo">
             <nav class="navigation-bar">
                 <ul>
@@ -22,13 +23,11 @@
                     <li>Features</li>
                     <li class="sign">Signup</li>
                 </ul>
-                <button class="request-demo">Request Demo</button>
             </nav>
-        </section>
-    </header>
-
-    <!-- Main content container -->
-    <main>
+            <span class="btn-top">
+                <button class="request-demo">Request Demo</button>
+            </span>
+        </div>
         <!-- Save your data section -->
         <section class="section-01">
             <h1 class="section-01-header">
@@ -39,8 +38,14 @@
                 tested for security, so you can store your data here
                 safely but not be afraid of being stolen by others.
             </p>
+            <span class="section-01-btn">
             <button class="purple-btn">Lean more</button>
+            </span>
         </section>
+    </header>
+
+    <!-- Main content container -->
+    <main>
         <!-- High-level data storage section -->
         <section class="section-02">
             <h2 class="section-02-header">
