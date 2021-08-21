@@ -24,12 +24,16 @@ body{
     top: 50px; */
 }
 
+nav {
+    width: 100%;
+    height: max-content;
+}
+
 .navigation-bar {
     width: 322px;
     height: 30px;
     left: 410px;
     top: 65px;
-    /* padding: 60px 120px; */
 }
 
 .logo {
